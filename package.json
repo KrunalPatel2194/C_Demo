@@ -1,0 +1,26 @@
+{
+  "name": "aliviacart",
+  "version": "1.0.0",
+  "description": "Basic e-commerce structure development in Node/React for bulk production ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server --exec babel-node server/index.js"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "Createin Soft",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
+}
